@@ -4,7 +4,7 @@ A responsive, bilingual (English/Bangla) personal portfolio website.
 
 ## Files
 - `index.html` — website content
-- `style.css` — Minimal Luxury palette: warm off-white backgrounds, black typography, soft grey surfaces and a deep-black footer.
+- `style.css` — Minimal Luxury editorial style with a white hero, deep navy and soft blue typography, floating decorative orbs, platform brand marks, warm off-white sections and a deep-black footer.
 - `script.js` — mobile menu and language toggle
 
 ## Publish with GitHub Pages

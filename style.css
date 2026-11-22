@@ -13,3 +13,59 @@
 .footer .logo{color:#F5F5F2}
 .footer a:hover{color:#fff}
 @media(max-width:680px){.nav{background:#F5F5F2}}
+
+/* Editorial hero inspired by the supplied reference */
+.hero-showcase{position:relative;width:100%;min-height:735px;padding:65px 24px 54px;display:flex;justify-content:center;align-items:center;overflow:hidden;background:#fff;border-bottom:1px solid #e5e9f0}
+.hero-center{position:relative;z-index:2;width:min(900px,100%);text-align:center;margin:auto}
+.hero-location{display:flex;justify-content:center;align-items:center;gap:10px;color:#6b86b7;font:italic 17px "Playfair Display",serif;margin:0 0 32px}
+.hero-location span{width:8px;height:8px;border-radius:50%;background:#7795c8}
+.hero-kicker{font-size:10px;letter-spacing:3px;font-weight:700;color:#6c7d9b;margin:0 0 18px}
+.hero-display{display:flex;flex-direction:column;align-items:center;font-family:Impact,"Arial Narrow",sans-serif;font-stretch:condensed;font-size:clamp(52px,8.2vw,112px);font-weight:900;line-height:.83;letter-spacing:-3px;color:#203d70;margin:0 auto 30px}
+.hero-display span{display:block;transform:scaleX(.88)}
+.hero-display .blue-word{color:#6485bd}
+.hero-subtitle{font:600 20px "Playfair Display",serif;color:#203d70;margin:0 auto 12px}
+.hero-description{font:16px/1.8 "Playfair Display",serif;color:#536785;max-width:650px;margin:0 auto}
+.hero-actions-center{justify-content:center;margin-top:31px}
+.hero-primary{background:#203d70;color:#fff;border:1px solid #203d70;border-radius:50px;padding:17px 27px;box-shadow:0 12px 26px #203d7020}
+.hero-secondary{border:1.5px solid #203d70;color:#203d70;border-radius:50px;padding:17px 27px;background:#fff}
+.hero-proof{display:flex;align-items:center;justify-content:center;gap:16px;margin:43px auto 22px;color:#8290a5;font-size:8px;letter-spacing:2px;font-weight:700}
+.proof-line{height:1px;width:42px;background:#d6dce6}
+.hero-platform-logos{display:flex;justify-content:center;align-items:center;gap:45px;margin-top:18px}
+.hero-platform-logos a{display:flex;align-items:center;gap:9px;text-decoration:none;color:#263d66;font:600 13px "DM Sans",sans-serif}
+.brand-icon{width:27px;height:27px;display:grid;place-items:center}
+.brand-icon svg{width:24px;height:24px;fill:currentColor}
+.instagram-icon svg{fill:none;stroke:currentColor;stroke-width:2}.instagram-icon .fill-dot{fill:currentColor;stroke:none}
+.youtube-icon{color:#df2929}.instagram-icon{color:#9c5c87}.facebook-icon{color:#3266a8}
+.hero-orb{position:absolute;border-radius:50%;filter:blur(3px);pointer-events:none}
+.orb-blue{width:210px;height:210px;right:7%;top:-15px;background:#dfe7f3}
+.orb-gold{width:76px;height:76px;right:5%;top:58%;background:#f8e8c8;filter:blur(4px)}
+.orb-soft{width:130px;height:130px;left:8%;bottom:7%;background:#d9e4f2;filter:blur(5px)}
+.platforms-section{padding-top:105px;padding-bottom:115px}
+.platform-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
+.platform-card{min-height:230px;position:relative;display:flex;flex-direction:column;align-items:flex-start;padding:24px 25px;text-decoration:none;border:1px solid #e2e6ed;border-radius:15px;background:#fff;overflow:hidden;transition:transform .25s,box-shadow .25s,border-color .25s}
+.platform-card:after{content:"";position:absolute;width:140px;height:140px;border-radius:50%;right:-48px;bottom:-60px;background:#edf1f7;transition:transform .3s}
+.platform-card:hover{transform:translateY(-6px);box-shadow:0 18px 38px #172e5014;border-color:#b8c6dc}
+.platform-card:hover:after{transform:scale(1.35)}
+.platform-card-top{font-size:9px;letter-spacing:1.7px;color:#8a96a9;font-weight:700}
+.platform-brand{width:53px;height:53px;border-radius:15px;display:grid;place-items:center;margin:24px 0 15px}
+.platform-brand svg{width:29px;height:29px;fill:currentColor}
+.instagram-brand svg{fill:none;stroke:currentColor;stroke-width:2}.instagram-brand .fill-dot{fill:currentColor;stroke:none}
+.youtube-brand{background:#fff0ef;color:#e62117}.instagram-brand{background:#f7edf5;color:#a34b83}.facebook-brand{background:#edf3ff;color:#2874d0}
+.platform-card strong{font:600 20px "Playfair Display",serif;color:#182e51;z-index:1}
+.platform-card small{font-size:11px;color:#8993a3;margin-top:6px;z-index:1}
+.platform-arrow{position:absolute;right:23px;top:22px;font-size:20px;color:#7387a8;z-index:1}
+.platform-heading h2{color:#172e50}
+.platform-heading h2 em{color:#6c88b9}
+@media(max-width:680px){
+ .hero-showcase{min-height:650px;padding:65px 18px 45px}
+ .hero-display{font-size:clamp(43px,12vw,68px);letter-spacing:-1.8px}
+ .hero-location{font-size:14px;margin-bottom:26px}
+ .hero-subtitle{font-size:17px}.hero-description{font-size:14px}
+ .hero-actions-center{gap:10px}.hero-actions-center .button{font-size:9px;padding:14px 16px}
+ .hero-proof{font-size:7px;letter-spacing:1px;gap:8px;margin-top:35px}.proof-line{width:20px}
+ .hero-platform-logos{gap:18px;flex-wrap:wrap}.hero-platform-logos a{font-size:11px;gap:5px}
+ .hero-orb.orb-blue{width:120px;height:120px;right:-20px}.orb-gold{width:50px;height:50px;right:0}.orb-soft{width:85px;height:85px;left:-30px}
+ .platform-cards{grid-template-columns:1fr 1fr;gap:11px;margin-top:28px}
+ .platform-card{min-height:205px;padding:17px 15px}.platform-card strong{font-size:16px}.platform-card-top{font-size:7px;letter-spacing:1px}.platform-brand{width:45px;height:45px;margin:22px 0 13px}
+}
+@media(max-width:390px){.platform-cards{grid-template-columns:1fr}.hero-actions-center{flex-direction:column;align-items:center}.hero-actions-center .button{width:220px;text-align:center}}
