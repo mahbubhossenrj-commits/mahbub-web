@@ -26,3 +26,7 @@ A responsive bilingual (English/Bangla) personal brand, portfolio and blog websi
 5. Wait for the Pages deployment to finish. GitHub will show the published URL in Settings → Pages.
 
 GitHub Pages hosts static HTML, CSS and JavaScript files. No backend or database is included in this starter website.
+
+
+## Contact details
+Your supplied email, phone, mailing address, Facebook profile, two Facebook page links, Instagram and YouTube are included in the Contact section. Consider whether you want your phone number and full mailing address publicly visible before publishing.
