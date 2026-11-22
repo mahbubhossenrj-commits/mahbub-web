@@ -4,106 +4,106 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Tawsif Mahbub — Botany student, aspiring web developer and content creator.">
-  <title>Tawsif Mahbub — Personal Website</title>
+  <title>Tawsif Mahbub | Personal Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header">
-  <a class="logo" href="#home"><span class="logo-symbol">TM</span><span>TAWSIF MAHBUB<span class="dot">.</span></span></a>
-  <nav id="nav" class="nav">
-    <a href="#about" data-en="ABOUT" data-bn="পরিচিতি">ABOUT</a>
-    <a href="#interests" data-en="INTERESTS" data-bn="আগ্রহ">INTERESTS</a>
-    <a href="#platforms" data-en="PLATFORMS" data-bn="প্ল্যাটফর্ম">PLATFORMS</a>
-    <a href="#contact" data-en="CONTACT" data-bn="যোগাযোগ">CONTACT</a>
-  </nav>
-  <div class="header-right">
-    <button id="language" class="language" type="button">বাংলা</button>
-    <a class="header-contact" href="mailto:mahbubhossenrj@gmail.com" data-en="LET'S TALK ↗" data-bn="যোগাযোগ ↗">LET'S TALK ↗</a>
-    <button id="menu" class="menu" aria-label="Open menu" aria-expanded="false">☰</button>
-  </div>
-</header>
+  <div class="top-glow"></div>
+  <header class="site-header wrap">
+    <a class="brand" href="#home" aria-label="Tawsif Mahbub home">
+      <img src="assets/learn-with-mahbub-logo.jpg" alt="Learn with Mahbub logo">
+      <span>TAWSIF <b>MAHBUB</b><small>STUDENT · DEVELOPER · CREATOR</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#home" data-en="Home" data-bn="হোম">Home</a>
+      <a href="#about" data-en="About" data-bn="আমার সম্পর্কে">About</a>
+      <a href="#interests" data-en="Interests" data-bn="আগ্রহ">Interests</a>
+      <a href="#platforms" data-en="Platforms" data-bn="প্ল্যাটফর্ম">Platforms</a>
+      <a href="#contact" data-en="Contact" data-bn="যোগাযোগ">Contact</a>
+      <button class="lang-btn" id="langBtn">বাংলা</button>
+    </nav>
+  </header>
 
-<main>
-  <section id="home" class="hero hero-showcase">
-    <div class="hero-orb orb-blue"></div><div class="hero-orb orb-gold"></div><div class="hero-orb orb-soft"></div>
-    <div class="hero-center">
-      <p class="hero-location"><span></span><em data-en="Bangladesh · Learning and creating" data-bn="বাংলাদেশ · শিখছি ও তৈরি করছি">Bangladesh · Learning and creating</em></p>
-      <p class="hero-kicker" data-en="HELLO, I'M TAWSIF MAHBUB" data-bn="হ্যালো, আমি তাওসিফ মাহবুব">HELLO, I'M TAWSIF MAHBUB</p>
-      <h1 class="hero-display"><span data-en="CURIOUS MIND." data-bn="কৌতূহলী মন।">CURIOUS MIND.</span><span data-en="CREATIVE SPIRIT." data-bn="সৃষ্টিশীল সত্তা।">CREATIVE SPIRIT.</span><span class="blue-word" data-en="DIGITAL JOURNEY." data-bn="ডিজিটাল যাত্রা।">DIGITAL JOURNEY.</span></h1>
-      <p class="hero-subtitle" data-en="Botany student, aspiring web developer and content creator." data-bn="উদ্ভিদবিজ্ঞানের শিক্ষার্থী, ভবিষ্যৎ ওয়েব ডেভেলপার ও কনটেন্ট ক্রিয়েটর।">Botany student, aspiring web developer and content creator.</p>
-      <p class="hero-description" data-en="I love learning new things, exploring ideas and turning curiosity into meaningful work. Welcome to my corner of the internet." data-bn="নতুন কিছু শেখা, নতুন ধারণা অন্বেষণ করা এবং কৌতূহলকে অর্থবহ কাজে রূপ দিতে ভালোবাসি। আমার অনলাইন জগতে স্বাগতম।">I love learning new things, exploring ideas and turning curiosity into meaningful work. Welcome to my corner of the internet.</p>
-      <div class="hero-actions hero-actions-center">
-        <a class="button hero-primary" href="#about" data-en="EXPLORE MY WORLD ↗" data-bn="আমার জগৎ ঘুরে দেখুন ↗">EXPLORE MY WORLD ↗</a>
-        <a class="button hero-secondary" href="mailto:mahbubhossenrj@gmail.com" data-en="LET'S CONNECT ↗" data-bn="যোগাযোগ করুন ↗">LET'S CONNECT ↗</a>
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span><span data-en="WELCOME TO MY PERSONAL SPACE" data-bn="আমার ব্যক্তিগত ওয়েবসাইটে স্বাগতম">WELCOME TO MY PERSONAL SPACE</span></div>
+        <p class="hello" data-en="Hello, I'm" data-bn="হ্যালো, আমি">Hello, I'm</p>
+        <h1>Tawsif <em>Mahbub.</em></h1>
+        <h2 data-en="Botany Student · Aspiring Web Developer · Content Creator" data-bn="উদ্ভিদবিজ্ঞান শিক্ষার্থী · ভবিষ্যৎ ওয়েব ডেভেলপার · কনটেন্ট ক্রিয়েটর">Botany Student · Aspiring Web Developer · Content Creator</h2>
+        <p class="intro" data-en="I am a Botany student, aspiring web developer and content creator. I love learning new things, building for the web and sharing knowledge." data-bn="আমি উদ্ভিদবিজ্ঞান বিভাগের শিক্ষার্থী, ওয়েব ডেভেলপার হওয়ার স্বপ্ন দেখি এবং কনটেন্ট তৈরি করি। নতুন কিছু শেখা, ওয়েবসাইট তৈরি ও জ্ঞান ভাগ করে নিতে ভালোবাসি।">I am a Botany student, aspiring web developer and content creator. I love learning new things, building for the web and sharing knowledge.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#about" data-en="Discover More ↗" data-bn="আরও জানুন ↗">Discover More ↗</a>
+          <a class="btn secondary" href="#contact" data-en="Get in Touch" data-bn="যোগাযোগ করুন">Get in Touch</a>
+        </div>
+        <div class="mini-note"><span class="mini-line"></span><span data-en="Curiosity today. Creativity tomorrow." data-bn="আজকের কৌতূহল, আগামী দিনের সৃজনশীলতা।">Curiosity today. Creativity tomorrow.</span></div>
       </div>
-      <div class="hero-proof"><span class="proof-line"></span><span data-en="A LITTLE BIT OF SCIENCE. A LITTLE BIT OF CODE. A LOT OF CURIOSITY." data-bn="বিজ্ঞানের ছোঁয়া। কোডের ছোঁয়া। অফুরন্ত কৌতূহল।">A LITTLE BIT OF SCIENCE. A LITTLE BIT OF CODE. A LOT OF CURIOSITY.</span><span class="proof-line"></span></div>
-      <div class="hero-platform-logos">
-        <a href="https://youtube.com/@learnwith_tawsifmahbub" target="_blank" rel="noopener" aria-label="YouTube"><span class="brand-icon youtube-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></svg></span><b>YouTube</b></a>
-        <a href="https://www.instagram.com/tawsif.tm/" target="_blank" rel="noopener" aria-label="Instagram"><span class="brand-icon instagram-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6.5" r="1" class="fill-dot"/></svg></span><b>Instagram</b></a>
-        <a href="https://www.facebook.com/share/1DjAcFJDGX/" target="_blank" rel="noopener" aria-label="Facebook"><span class="brand-icon facebook-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V13h2.8v8h3.4Z"/></svg></span><b>Facebook</b></a>
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <div class="photo-label">A LITTLE INTRODUCTION <span>✳</span></div>
+          <img src="assets/tawsif-mahbub.jpg" alt="Portrait of Tawsif Mahbub">
+        </div>
+        <div class="floating-tag tag-one"><span>✦</span> Always Learning</div>
+        <div class="floating-tag tag-two">BANGLADESH · 🇧🇩</div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <div class="ticker"><div>BOTANY <b>✳</b> WEB DEVELOPMENT <b>✳</b> CONTENT CREATION <b>✳</b> LEARNING <b>✳</b> BOTANY <b>✳</b> WEB DEVELOPMENT <b>✳</b></div></div>
+    <section class="ticker"><div>LEARN • CREATE • EXPLORE • GROW • LEARN • CREATE • EXPLORE • GROW •</div></section>
 
-  <section id="about" class="section wrap">
-    <div class="section-label">01 / <span data-en="ABOUT ME" data-bn="আমার পরিচিতি">ABOUT ME</span></div>
-    <div class="about-grid">
-      <h2 data-en="Curious by nature.<br>Creative by choice." data-bn="স্বভাবে কৌতূহলী।<br>পছন্দে সৃষ্টিশীল।">Curious by nature.<br>Creative by choice.</h2>
-      <div class="about-copy">
-        <p data-en="I am currently a first-year Honours student in the Department of Botany. Alongside my academic studies, I am learning web development and creating educational content." data-bn="আমি বর্তমানে উদ্ভিদবিজ্ঞান বিভাগে অনার্স প্রথম বর্ষের শিক্ষার্থী। পড়াশোনার পাশাপাশি ওয়েব ডেভেলপমেন্ট শিখছি এবং শিক্ষামূলক কনটেন্ট তৈরি করছি।">I am currently a first-year Honours student in the Department of Botany. Alongside my academic studies, I am learning web development and creating educational content.</p>
-        <p data-en="This website is my personal space to introduce myself and share the platforms where I publish my work." data-bn="এই ওয়েবসাইটটি আমার নিজস্ব পরিচিতির জায়গা, যেখানে আমার কাজ ও অনলাইন প্ল্যাটফর্মগুলো তুলে ধরেছি।">This website is my personal space to introduce myself and share the platforms where I publish my work.</p>
-        <a class="underlink" href="mailto:mahbubhossenrj@gmail.com">mahbubhossenrj@gmail.com ↗</a>
+    <section class="section wrap" id="about">
+      <div class="section-kicker">01 / ABOUT ME</div>
+      <div class="about-grid">
+        <div><h2 data-en="A curious mind with <i>big ideas.</i>" data-bn="কৌতূহলী মন, <i>বড় স্বপ্ন।</i>">A curious mind with <i>big ideas.</i></h2></div>
+        <div class="about-text">
+          <p data-en="I am currently studying in the Department of Botany. Alongside my academic journey, I am learning web technologies and developing my skills as a content creator." data-bn="আমি বর্তমানে উদ্ভিদবিজ্ঞান বিভাগে পড়াশোনা করছি। পড়াশোনার পাশাপাশি ওয়েব প্রযুক্তি শিখছি এবং কনটেন্ট ক্রিয়েটর হিসেবে নিজের দক্ষতা তৈরি করছি।">I am currently studying in the Department of Botany. Alongside my academic journey, I am learning web technologies and developing my skills as a content creator.</p>
+          <p data-en="This website is my little corner of the internet — a place to share what I learn, what I build and what inspires me." data-bn="এই ওয়েবসাইটটি ইন্টারনেটে আমার নিজস্ব ছোট্ট জায়গা—এখানে আমি আমার শেখা, তৈরি করা কাজ এবং অনুপ্রেরণার বিষয়গুলো তুলে ধরব।">This website is my little corner of the internet — a place to share what I learn, what I build and what inspires me.</p>
+          <a class="text-link" href="mailto:mahbubhossenrj@gmail.com">Let's connect ↗</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="interests" class="section section-border">
-    <div class="wrap">
-      <div class="section-label">02 / <span data-en="MY INTERESTS" data-bn="আমার আগ্রহ">MY INTERESTS</span></div>
-      <div class="interest-grid">
-        <article><span class="number">01</span><div class="interest-icon">⌘</div><h3>Web Development</h3><p data-en="Learning to build useful and responsive websites." data-bn="ব্যবহারবান্ধব ও রেসপনসিভ ওয়েবসাইট তৈরি শেখা।">Learning to build useful and responsive websites.</p></article>
-        <article><span class="number">02</span><div class="interest-icon">✳</div><h3>Botany & Science</h3><p data-en="Studying plant science and exploring the natural world." data-bn="উদ্ভিদবিজ্ঞান অধ্যয়ন ও প্রকৃতির জগৎ অন্বেষণ।">Studying plant science and exploring the natural world.</p></article>
-        <article><span class="number">03</span><div class="interest-icon">▶</div><h3>Content Creation</h3><p data-en="Creating and sharing educational content through online platforms." data-bn="অনলাইন প্ল্যাটফর্মে শিক্ষামূলক কনটেন্ট তৈরি ও শেয়ার করা।">Creating and sharing educational content through online platforms.</p></article>
+    <section class="section interests-section" id="interests">
+      <div class="wrap">
+        <div class="section-kicker">02 / WHAT I LOVE</div>
+        <h2 data-en="My interests & <i>journey.</i>" data-bn="আমার আগ্রহ ও <i>পথচলা।</i>">My interests & <i>journey.</i></h2>
+        <div class="interest-grid">
+          <article class="interest-card"><span class="card-number">01</span><div class="icon-box">🌿</div><h3>Botany</h3><p data-en="Exploring plant science, nature and the fascinating world of living organisms." data-bn="উদ্ভিদবিজ্ঞান, প্রকৃতি ও জীবজগতের বিস্ময়কর বিষয়গুলো অন্বেষণ করা।">Exploring plant science, nature and the fascinating world of living organisms.</p></article>
+          <article class="interest-card dark-card"><span class="card-number">02</span><div class="icon-box">⌘</div><h3>Web Development</h3><p data-en="Learning HTML, CSS and JavaScript while working towards becoming a web developer." data-bn="HTML, CSS ও JavaScript শিখছি এবং ওয়েব ডেভেলপার হওয়ার পথে এগোচ্ছি।">Learning HTML, CSS and JavaScript while working towards becoming a web developer.</p></article>
+          <article class="interest-card"><span class="card-number">03</span><div class="icon-box">▶</div><h3>Content Creation</h3><p data-en="Creating educational content and sharing useful knowledge through digital platforms." data-bn="ডিজিটাল প্ল্যাটফর্মে শিক্ষামূলক কনটেন্ট তৈরি ও প্রয়োজনীয় জ্ঞান ভাগ করে নেওয়া।">Creating educational content and sharing useful knowledge through digital platforms.</p></article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="platforms" class="section wrap platforms-section">
-    <div class="section-label">03 / <span data-en="MY PLATFORMS" data-bn="আমার প্ল্যাটফর্ম">MY PLATFORMS</span></div>
-    <div class="platform-heading"><h2 data-en="Find me on the <em>internet.</em>" data-bn="অনলাইনে আমার <em>ঠিকানা।</em>">Find me on the <em>internet.</em></h2><p data-en="Different spaces. One curious mind." data-bn="ভিন্ন ভিন্ন প্ল্যাটফর্ম, একই কৌতূহলী মন।">Different spaces. One curious mind.</p></div>
-    <div class="platform-cards">
-      <a class="platform-card youtube-card" href="https://youtube.com/@learnwith_tawsifmahbub" target="_blank" rel="noopener"><span class="platform-card-top">01 / VIDEO & LEARNING</span><span class="platform-brand youtube-brand"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></svg></span><strong>Learn with Mahbub</strong><small>YouTube Channel</small><span class="platform-arrow">↗</span></a>
-      <a class="platform-card instagram-card" href="https://www.instagram.com/tawsif.tm/" target="_blank" rel="noopener"><span class="platform-card-top">02 / MOMENTS & STORIES</span><span class="platform-brand instagram-brand"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6.5" r="1" class="fill-dot"/></svg></span><strong>Instagram</strong><small>@tawsif.tm</small><span class="platform-arrow">↗</span></a>
-      <a class="platform-card facebook-card" href="https://www.facebook.com/share/1DjAcFJDGX/" target="_blank" rel="noopener"><span class="platform-card-top">03 / PERSONAL SPACE</span><span class="platform-brand facebook-brand"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V13h2.8v8h3.4Z"/></svg></span><strong>Facebook Profile</strong><small>Personal profile</small><span class="platform-arrow">↗</span></a>
-      <a class="platform-card facebook-card" href="https://www.facebook.com/share/1A8dCCLUuZ/" target="_blank" rel="noopener"><span class="platform-card-top">04 / COMMUNITY</span><span class="platform-brand facebook-brand"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V13h2.8v8h3.4Z"/></svg></span><strong>Facebook Page 01</strong><small>Facebook page</small><span class="platform-arrow">↗</span></a>
-      <a class="platform-card facebook-card" href="https://www.facebook.com/share/1DKMi7rycw/" target="_blank" rel="noopener"><span class="platform-card-top">05 / COMMUNITY</span><span class="platform-brand facebook-brand"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V13h2.8v8h3.4Z"/></svg></span><strong>Facebook Page 02</strong><small>Facebook page</small><span class="platform-arrow">↗</span></a>
-    </div>
-  </section>
+    <section class="section wrap platforms-section" id="platforms">
+      <div class="platform-heading">
+        <div><div class="section-kicker">03 / FIND ME ONLINE</div><h2>MY <i>PLATFORMS.</i></h2></div>
+        <p data-en="Different spaces. One place to connect." data-bn="ভিন্ন ভিন্ন প্ল্যাটফর্ম, যোগাযোগের একটি জায়গা।">Different spaces. One place to connect.</p>
+      </div>
+      <div class="platform-grid">
+        <a class="platform-card youtube" href="https://youtube.com/@learnwith_tawsifmahbub?si=u9d0bhT2PxZr9wj3" target="_blank" rel="noopener"><span class="platform-icon">▶</span><span><b>YouTube</b><small>Learn with Mahbub</small></span><span class="arrow">↗</span></a>
+        <a class="platform-card instagram" href="https://www.instagram.com/tawsif.tm?cnvx=MWV4b3l6NGh6cTRnbg%3D%3D" target="_blank" rel="noopener"><span class="platform-icon">◎</span><span><b>Instagram</b><small>@tawsif.tm</small></span><span class="arrow">↗</span></a>
+        <a class="platform-card facebook" href="https://www.facebook.com/share/1DjAcFJDGX/" target="_blank" rel="noopener"><span class="platform-icon">f</span><span><b>Facebook Profile</b><small>Connect with me</small></span><span class="arrow">↗</span></a>
+        <a class="platform-card facebook" href="https://www.facebook.com/share/1A8dCCLUuZ/" target="_blank" rel="noopener"><span class="platform-icon">f</span><span><b>Facebook Page 01</b><small>My creative space</small></span><span class="arrow">↗</span></a>
+        <a class="platform-card facebook" href="https://www.facebook.com/share/1DKMi7rycw/" target="_blank" rel="noopener"><span class="platform-icon">f</span><span><b>Facebook Page 02</b><small>Explore my page</small></span><span class="arrow">↗</span></a>
+        <a class="platform-card learn" href="https://youtube.com/@learnwith_tawsifmahbub?si=u9d0bhT2PxZr9wj3" target="_blank" rel="noopener"><img src="assets/learn-with-mahbub-logo.jpg" alt=""><span><b>Learn with Mahbub</b><small>Learn something new</small></span><span class="arrow">↗</span></a>
+      </div>
+    </section>
 
-  <section id="contact" class="contact-band">
-    <div class="wrap contact-content"><div><div class="section-label">04 / CONTACT</div><h2 data-en="Let's make<br>something <em>meaningful.</em>" data-bn="চলুন তৈরি করি<br>অর্থবহ <em>কিছু।</em>">Let's make<br>something <em>meaningful.</em></h2></div><a class="contact-mail" href="mailto:mahbubhossenrj@gmail.com">mahbubhossenrj@gmail.com <span>↗</span></a></div>
-  </section>
-</main>
+    <section class="contact-band" id="contact"><div class="wrap contact-inner"><div><div class="section-kicker">04 / SAY HELLO</div><h2 data-en="Have an idea? <i>Let's talk.</i>" data-bn="কোনো আইডিয়া আছে? <i>কথা বলি।</i>">Have an idea? <i>Let's talk.</i></h2><p data-en="I'm always open to learning, collaboration and meaningful conversations." data-bn="শেখা, একসঙ্গে কাজ করা এবং অর্থবহ আলোচনার জন্য আমি সবসময় আগ্রহী।">I'm always open to learning, collaboration and meaningful conversations.</p></div><a class="btn light" href="mailto:mahbubhossenrj@gmail.com">Email Me ↗</a></div></section>
 
-<footer class="footer">
-  <div class="wrap footer-main">
-    <div class="footer-about">
-      <a class="logo footer-logo" href="#home"><span class="logo-symbol">TM</span><span>TAWSIF MAHBUB<span class="dot">.</span></span></a>
-      <p data-en="Botany student, aspiring web developer and content creator. Learning, creating and sharing one step at a time." data-bn="উদ্ভিদবিজ্ঞানের শিক্ষার্থী, ভবিষ্যৎ ওয়েব ডেভেলপার ও কনটেন্ট ক্রিয়েটর। ধাপে ধাপে শিখছি, তৈরি করছি এবং শেয়ার করছি।">Botany student, aspiring web developer and content creator. Learning, creating and sharing one step at a time.</p>
-      <h4>ADDRESS</h4><p>Vill: Bridashuria, Post: Shoiljana,<br>Thana: Chauhali, Dist: Sirajganj,<br>Bangladesh</p>
-      <h4>EMAIL & PHONE</h4><p><a href="mailto:mahbubhossenrj@gmail.com">mahbubhossenrj@gmail.com</a><br><a href="tel:+8801964989650">+880 1964-989650</a></p>
-    </div>
-    <div class="footer-column"><h4 data-en="EXPLORE" data-bn="ঘুরে দেখুন">EXPLORE</h4><a href="#home" data-en="Home" data-bn="হোম">Home</a><a href="#about" data-en="About me" data-bn="আমার পরিচিতি">About me</a><a href="#interests" data-en="My interests" data-bn="আমার আগ্রহ">My interests</a><a href="#platforms" data-en="Online platforms" data-bn="অনলাইন প্ল্যাটফর্ম">Online platforms</a><a href="#contact" data-en="Contact" data-bn="যোগাযোগ">Contact</a></div>
-    <div class="footer-column"><h4 data-en="MY PLATFORMS" data-bn="আমার প্ল্যাটফর্ম">MY PLATFORMS</h4><a href="https://youtube.com/@learnwith_tawsifmahbub" target="_blank" rel="noopener">YouTube</a><a href="https://www.instagram.com/tawsif.tm/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/share/1DjAcFJDGX/" target="_blank" rel="noopener">Facebook Profile</a><a href="https://www.facebook.com/share/1A8dCCLUuZ/" target="_blank" rel="noopener">Facebook Page 01</a><a href="https://www.facebook.com/share/1DKMi7rycw/" target="_blank" rel="noopener">Facebook Page 02</a></div>
-    <div class="footer-column"><h4 data-en="SAY HELLO" data-bn="যোগাযোগ করুন">SAY HELLO</h4><a href="mailto:mahbubhossenrj@gmail.com">Send an email ↗</a><a href="tel:+8801964989650">Call me ↗</a><a href="https://www.instagram.com/tawsif.tm/" target="_blank" rel="noopener">Instagram ↗</a></div>
-  </div>
-  <div class="footer-bottom"><div class="wrap bottom-inner"><span>© <span id="year"></span> Tawsif Mahbub. All rights reserved.</span><span>MADE WITH PURPOSE · BANGLADESH</span><a href="#home">BACK TO TOP ↑</a></div></div>
-</footer>
-<script src="script.js"></script>
+    <section class="section wrap contact-details">
+      <div class="detail"><small>EMAIL</small><a href="mailto:mahbubhossenrj@gmail.com">mahbubhossenrj@gmail.com</a></div>
+      <div class="detail"><small>PHONE</small><a href="tel:+8801964989650">+880 1964-989650</a></div>
+      <div class="detail"><small>LOCATION</small><span>Chauhali, Sirajganj, Bangladesh</span></div>
+    </section>
+  </main>
+
+  <footer><div class="wrap footer-inner"><a class="footer-brand" href="#home">TM<span>.</span></a><p>© <span id="year"></span> Tawsif Mahbub. Made with curiosity & care.</p><a href="#home">BACK TO TOP ↑</a></div></footer>
+  <script src="script.js"></script>
 </body>
 </html>
